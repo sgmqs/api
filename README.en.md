@@ -1,21 +1,22 @@
 # openapi-php-sdk
 
-#### 说明
+#### Description
 OpenApi PHP SDK
 
-## 安装方法
-### 1、推荐使用composer
+#### Installation
+
+### 1、composer
 ```bash
 composer require openapidemo/openapi-php-sdk
 ```
 
-### 2、直接引用autoload.php文件
+### 2、require autoload.php
 
 ```php
 require_once __DIR__ . '/../autoload.php';
 ```
 
-## 使用方法
+#### Instructions
 
 ```php
 

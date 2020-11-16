@@ -1,0 +1,19 @@
+{
+    "name": "openapidemo/openapi-php-sdk",
+    "description": "AYG开放平台PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wxlao",
+            "email": "pluswx@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"Ayg\\": "src/Ayg"},
+        "files": ["src/Ayg/functions.php"]
+    }
+}
